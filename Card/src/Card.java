@@ -25,7 +25,7 @@ public class Card {
     }
 
     public void setSuit(String suit) {
-        if(suit.equals("Hearts")||suit.equals("Spades")||suit.equals("Diamonds")||suit.equals("Clubs"))
+        if(suit.equals("Hearts")||suit.equals("Spade")||suit.equals("Diamonds")||suit.equals("Clubs"))
         {
         this.suit = suit;
         }
